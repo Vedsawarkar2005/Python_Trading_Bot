@@ -12,6 +12,7 @@ A simple Python CLI trading bot that places MARKET and LIMIT orders on Binance F
 - CLI input using argparse
 - Logging of API requests, responses, and errors
 - Input validation
+- Open Orders
 
 ---
 
