@@ -6,13 +6,15 @@ A simple Python CLI trading bot that places MARKET and LIMIT orders on Binance F
 
 ## Features
 
-- Place MARKET orders
-- Place LIMIT orders
-- Supports BUY and SELL
-- CLI input using argparse
-- Logging of API requests, responses, and errors
+- Place MARKET orders on Binance Futures Testnet
+- Place LIMIT orders on Binance Futures Testnet
+- Supports BUY and SELL operations
+- CLI interface using argparse
+- Structured architecture (API layer + CLI layer)
 - Input validation
-- Open Orders
+- Error handling
+- Logging of API requests, responses, and failures
+- Order confirmation prompt before execution
 
 ---
 
