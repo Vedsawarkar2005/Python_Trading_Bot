@@ -1,10 +1,17 @@
 import argparse
 import logging
+import os
 
+from dotenv import load_dotenv
 from bot.client import BinanceClient
 from bot.orders import place_order
 from bot.validators import validate_side, validate_order_type, validate_price
 from bot.logging_config import setup_logger
+
+load_dotenv()
+
+API_KEY = os.getenv("BINANCE_API_KEY")
+API_SECRET = os.getenv("BINANCE_SECRET_KEY")
 
 def main():
 
@@ -35,7 +42,11 @@ def main():
         print(f"Type: {args.type}")
         print(f"Quantity: {args.quantity}")
         print(f"Price: {args.price}")
+        confirmation = input("\nConfirm order? (yes/no): ")
 
+        if confirmation.lower() != "yes":
+           print("Order cancelled by user.")
+           return
         order = place_order(
             client,
             args.symbol,
