@@ -6,11 +6,6 @@ from bot.orders import place_order
 from bot.validators import validate_side, validate_order_type, validate_price
 from bot.logging_config import setup_logger
 
-
-API_KEY = "4PcCZoh7RDQgnCyatHpiLUqYAKLZh97ixAEsBofBAQyCjxWaPZWUYudzAB3pvr1k "
-API_SECRET = "qVhelfr3GXNQLejVgrzLH6wbhD8O7VBcwQ0T86upOHC6FSPyZvGHLr3T0GfMHqlu"
-
-
 def main():
 
     setup_logger()
