@@ -7,8 +7,8 @@ from bot.validators import validate_side, validate_order_type, validate_price
 from bot.logging_config import setup_logger
 
 
-API_KEY = "wZk7N4F1edQzaEFZWn9kOreH1M739ZWYuGukFrHuY4udsmZomNOp4OF4hgAGcff3 "
-API_SECRET = "MMf2Pp9pItlqghI7zYC3GEzjdZaU3ZMQXEdVSxHyk4qqaGGt9PrH4mTVJCMCLQ9f"
+API_KEY = "4PcCZoh7RDQgnCyatHpiLUqYAKLZh97ixAEsBofBAQyCjxWaPZWUYudzAB3pvr1k "
+API_SECRET = "qVhelfr3GXNQLejVgrzLH6wbhD8O7VBcwQ0T86upOHC6FSPyZvGHLr3T0GfMHqlu"
 
 
 def main():
