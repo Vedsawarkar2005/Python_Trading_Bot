@@ -71,3 +71,6 @@ Logs include:
 - Order requests
 - Order responses
 - Errors
+
+## Example CLI Output
+![CLI Output](doc/example.png)
